@@ -39,9 +39,9 @@
             </div>
             <!-- Botones -->
             <br>
-            <button class="button is-Iniciar Sesión is-rounded">Iniciar Sesión</button>
-            <button class="button is-link is-light is-rounded" type="button" onclick="window.location.href='register.php'">Registrarse</button>
-    </form>
+            <button class="button is-Iniciar Sesión is-rounded" type="button" onclick="window.location.href= 'opciones.php';">Iniciar Sesión</button>
+            <button class="button is-link is-light is-rounded" type="button" onclick="window.location.href='register.php';">Registrarse</button>
+</form>
 
 </body>
 </html>
