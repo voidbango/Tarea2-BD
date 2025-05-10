@@ -11,18 +11,28 @@
 </head>
 <body>
     <div>
-        <h1>Eliga una opcion de usuario</h1>
+        <h1 class="titulosLeft">Eliga una opcion de usuario</h1>
+
+            <a href="articulos_autores.php">
+            <button class="button is-primary">Ver articulos</button>
+            </a>
+
             <a href="index.php">
-            <button class="button is-link is-inverted">Datos del usuario</button>
+            <button class="button is-info">Datos del usuario</button>
             </a>
 
             <a href="logout.php">
-            <button class="button is-link is-inverted">Borrar usuario</button>
+            <button class="button is-danger">Borrar usuario</button>
             </a>
 
             <a href="">
-            <button class="button is-link is-inverted">Editar datos usuario</button>
+            <button class="button is-warning ">Editar datos usuario</button>
             </a>
+
+            <a href="login.php">
+            <button class="button is-link">Volver</button>
+            </a>
+
     </div>    
 </body>
 </html>

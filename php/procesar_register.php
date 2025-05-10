@@ -1,12 +1,6 @@
 <?php
-$servernombre = "localhost";
-$usuario = "root";
-$contraseña = "";
-$basededatos = "congresos_ltda";
-$conexion = new mysqli($servernombre, $usuario, $contraseña, $basededatos);
-if ($conexion->connect_error) {
-    die("Error de conexión: " . $conexion->connect_error);
-}
+include("conexion.php");
+
 $rut = $_POST['rut'];
 $usuario = $_POST['username'];
 $pass = password_hash($_POST['password'], PASSWORD_DEFAULT);
